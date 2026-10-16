@@ -1,7 +1,7 @@
 import javax.sound.midi.Soundbank;
 
 public class Context {
-    private Strategy strategy = new StrategyImpl1();
+    private Strategy strategy = new StrategyImpl0();
 
     public void useStrategy(){
         System.out.println("==========================================");
